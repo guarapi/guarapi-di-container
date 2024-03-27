@@ -45,8 +45,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: pnpm exec chageset version
-          publish: pnpm exec chageset publish
+          version: pnpm exec changeset version
+          publish: pnpm exec changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
