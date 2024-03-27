@@ -1,6 +1,6 @@
 {
   "name": "@guarapi/di-container",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "João Neto",
   "license": "MIT",
   "description": "Dependency injection container",
