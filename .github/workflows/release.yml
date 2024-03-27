@@ -44,6 +44,9 @@ jobs:
       - name: Create Release PR or Publish to npm
         id: changesets
         uses: changesets/action@v1
+        with:
+          version: pnpm exec chageset version
+          publish: pnpm exec chageset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
