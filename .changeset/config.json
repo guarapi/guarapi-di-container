@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "guarapi/di-container" }],
+  "changelog": ["@changesets/changelog-github", { "repo": "guarapi/guarapi-di-container" }],
   "commit": false,
   "fixed": [],
   "linked": [],

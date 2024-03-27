@@ -12,8 +12,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "prettier": "@guarapi/eslint-config-guarapi/prettierrc.js",
-  "homepage": "https://github.com/guarapi/di-container#readme",
-  "repository": "github:guarapi/di-container",
+  "homepage": "https://github.com/guarapi/guarapi-di-container#readme",
+  "repository": "github:guarapi/guarapi-di-container",
   "type": "commonjs",
   "files": [
     "dist"
