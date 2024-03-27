@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main, next]
+  pull_request:
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+          cache: 'pnpm'
+
+      - name: Install
+        run: pnpm install
+
+      - name: Test
+        run: pnpm run test:coverage
+
+      - name: Build
+        run: pnpm build
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@v2

@@ -1,0 +1,24 @@
+{
+	"editor.wordWrapColumn": 100,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"editor.tabSize": 2,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.rulers": [100],
+	"eslint.options": {
+		"extensions": [".js", ".jsx", ".ts", ".tsx"]
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"eslint.format.enable": true,
+	"conventionalCommits.scopes": [
+		"datasources",
+		"users",
+		"contacts",
+		"stores",
+		"admin",
+		"pdv"
+	]
+}
