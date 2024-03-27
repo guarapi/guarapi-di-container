@@ -4,9 +4,9 @@
 ![CI](https://github.com/guarapi/guarapi/actions/workflows/ci.yml/badge.svg?branch=main)
 [![license](https://img.shields.io/github/license/guarapi/guarapi-di-container)](LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/guarapi/guarapi-di-container/badge.svg?branch=main)](https://coveralls.io/github/guarapi/guarapi-di-container?branch=main)
-[![npm version](https://badge.fury.io/js/%40guarapi%2Feslint-config-guarapi.svg)](https://www.npmjs.com/package/@guarapi/di-container)
+[![npm version](https://badge.fury.io/js/%40guarapi%2Fdi-container.svg)](https://www.npmjs.com/package/@guarapi/di-container)
 
-Dependency injection container for JavaScript/TypeScript applications.
+This is a lightweight and flexible dependency injection (DI) container library for JavaScript and TypeScript applications. It provides a simple yet powerful way to manage and resolve dependencies within your projects.
 
 ## Installation
 
