@@ -1,5 +1,11 @@
 # @guarapi/di-container
 
+## 0.1.4
+
+### Patch Changes
+
+- [#9](https://github.com/guarapi/guarapi-di-container/pull/9) [`07d78ac`](https://github.com/guarapi/guarapi-di-container/commit/07d78ac88bc68d799259a8d63a63484eb8879050) Thanks [@joaoneto](https://github.com/joaoneto)! - try pnpm exec versio and publish
+
 ## 0.1.3
 
 ### Patch Changes
