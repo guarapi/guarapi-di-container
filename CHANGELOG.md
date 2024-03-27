@@ -1,5 +1,13 @@
 # @guarapi/di-container
 
+## 0.1.3
+
+### Patch Changes
+
+- [#7](https://github.com/guarapi/guarapi-di-container/pull/7) [`9c79a45`](https://github.com/guarapi/guarapi-di-container/commit/9c79a454a6e8a0858435df79a6c59e0e7961e462) Thanks [@joaoneto](https://github.com/joaoneto)! - try fix workflow auto publish
+
+- [#6](https://github.com/guarapi/guarapi-di-container/pull/6) [`9704599`](https://github.com/guarapi/guarapi-di-container/commit/97045996e5395331268434861a85a933f224d4d7) Thanks [@joaoneto](https://github.com/joaoneto)! - try to publish without error 403 You cannot publish over the previously published versions
+
 ## 0.1.2
 
 ### Patch Changes
